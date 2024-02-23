@@ -1,6 +1,10 @@
 //Listen for submit
 document.getElementById('loan-form').addEventListener('submit', function(e){
   e.preventDefault();
+<<<<<<< HEAD
+
+=======
+>>>>>>> 2092c9353486391bc2dcfe0bf803fc8df4ce527f
   //hide results
   document.getElementById('results').style.display = 'none';
   
@@ -10,7 +14,11 @@ document.getElementById('loan-form').addEventListener('submit', function(e){
 });
 
 //Calculate Results
+<<<<<<< HEAD
+function calculateResults(){
+=======
 function calculateResults() {
+>>>>>>> 2092c9353486391bc2dcfe0bf803fc8df4ce527f
   //UI vars
   const amount = document.getElementById('amount');
   const interest = document.getElementById('interest');
